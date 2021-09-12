@@ -1,0 +1,23 @@
+.course-box{
+    background-color: thistle;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid;
+    width: 450px;
+}
+.course-box .courseName{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#test{
+    background-color: thistle;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid;
+    width: 450px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

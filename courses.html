@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %} 
+<h1 class="page-head">{{  page_head  }}</h1>
+<div id="test"></div>
+     </div> 
+{% for cr in course %}
+<div class="course-box">
+     <div class="courseName"> 
+        {{ cr }}
+    </div>
+</div>
+{% endfor %}
+
+<label for="cname">Enter Course name:</label><br>
+<input type="text" id="cname" name="cname" placeholder="course name"><br>
+<button type="button" id="button1">Add Course</button>
+<div></div>
+<button type="button" id="button2">Remove Course</button>
+
+ 
+{% endblock %}
